@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+  <!-- Site Title-->
+  <title>Ordenes</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css"
+    href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+
+  <script src="js/validaciones.js"></script>
+  <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"> </script>
+		<![endif]-->
+</head>
+
+<body>
+  <!-- Page preloader-->
+  <div class="page-loader">
+    <div class="page-loader-body">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue">
+          <div class="circle-clipper left">
+            <div class="circle"> </div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"> </div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+        <div class="spinner-layer spinner-red">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"> </div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+        <div class="spinner-layer spinner-yellow">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"> </div>
+          </div>
+        </div>
+        <div class="spinner-layer spinner-green">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page">
+    <class="section section-banner text-center d-none d-xl-block">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap rd-navbar-corporate">
+          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+            data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed"
+            data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-static"
+            data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static"
+            data-md-stick-up-offset="130px" data-lg-stick-up-offset="100px" data-stick-up="true" data-sm-stick-up="true"
+            data-md-stick-up="true" data-lg-stick-up="true" data-xl-stick-up="true">
+            <div class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+            <div class="rd-navbar-top-panel rd-navbar-collapse novi-background">
+              <div class="rd-navbar-top-panel-inner">
+                <ul class="list-inline">
+                  <li class="box-inline list-inline-item"><span
+                      class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-phone"></span>
+                    <ul class="list-comma">
+                      <li><a href="tel:#">1-234-5678-9</a></li>
+                    </ul>
+                  </li>
+                  <li class="box-inline list-inline-item"><span
+                      class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span><a
+                      href="#">Cualquier dirección en Santiago de Chile</a></li>
+                  <li class="box-inline list-inline-item"><span
+                      class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-email"></span><a
+                      href="mailto:#">micorreo@reinventate.cl</a></li>
+                </ul>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-facebook"
+                      href="#"></a></li>
+                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-twitter"
+                      href="#"></a></li>
+                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-instagram"
+                      href="#"></a></li>
+                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-google-plus"
+                      href="#"></a></li>
+                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-linkedin"
+                      href="#"></a></li>
+                </ul>
+              </div>
+              <div class="rd-navbar-top-panel-inner"><a class="button button-sm button-secondary button-nina" href="#"
+                  target="_blank">visitenos</a></div>
+            </div>
+            <div class="rd-navbar-inner">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default"
+                      src="images/logo-default-208x46.png" alt="" width="208" height="46" /><img class="logo-inverse"
+                      src="images/logo-inverse-208x46.png" alt="" width="208" height="46" /></a></div>
+              </div>
+              <div class="rd-navbar-aside-center">
+                <div class="rd-navbar-nav-wrap">
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li><a href="index.html">Inicio</a>
+                    </li>
+                    <li class="active"><a href="ordenes.html">Orden de Trabajo</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="rd-navbar-aside-right"><a class="button button-sm button-secondary button-nina"
+                  href="#">Visitanos!</a></div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="section">
+        <div class="swiper-form-wrap">
+          <!-- Swiper-->
+          <div
+            class="swiper-container swiper-slider swiper-slider_height-1 swiper-align-left swiper-align-left-custom context-dark bg-gray-darker"
+            data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" data-slide-bg="images/swiper-slide-2.jpg">
+                <div class="swiper-slide-caption">
+                  <div class="container container-bigger swiper-main-section">
+                    <div class="row row-fix justify-content-sm-center justify-content-md-start">
+                      <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-5">
+                        <h3>Registro de Ordenes de Trabajo</h3>
+                        <div class="divider divider-decorate"></div>
+                        <p class="text-spacing-sm">We offer a variety of destinations to travel to, ranging from exotic
+                          to some extreme ones. They include very popular countries and cities like Paris, Rio de
+                          Janeiro, Cairo and a lot of others.</p><a
+                          class="button button-default-outline button-nina button-sm" href="#">Leer más</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" data-slide-bg="images/swiper-slide-1.jpg">
+                <div class="swiper-slide-caption">
+                  <div class="container container-bigger swiper-main-section">
+                    <div class="row row-fix justify-content-sm-center justify-content-md-start">
+                      <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-5">
+                        <h3>Registro de Ordenes de Trabajo</h3>
+                        <div class="divider divider-decorate"></div>
+                        <p class="text-spacing-sm">Our travel agency is ready to offer you an exciting vacation that is
+                          designed to fit your own needs and wishes. Whether it’s an exotic cruise or a trip to your
+                          favorite resort, you will surely have the best experience.</p><a
+                          class="button button-default-outline button-nina button-sm" href="#">Leer más</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" data-slide-bg="images/swiper-slide-3.jpg">
+                <div class="swiper-slide-caption">
+                  <div class="container container-bigger swiper-main-section">
+                    <div class="row row-fix justify-content-sm-center justify-content-md-start">
+                      <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-5">
+                        <h3>Registro de Ordenes de Trabajo</h3>
+                        <div class="divider divider-decorate"></div>
+                        <p class="text-spacing-sm">Our team is ready to provide you with unique weekly travel insights
+                          that include photos, videos, and articles about untravelled tourist paths. We know everything
+                          about the places you’ve never been to!</p><a
+                          class="button button-default-outline button-nina button-sm" href="#">Leer más</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Swiper controls-->
+            <div class="swiper-pagination-wrap">
+              <div class="container container-bigger">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container container-bigger form-request-wrap form-request-wrap-modern">
+            <div class="row row-fix justify-content-sm-center justify-content-lg-end">
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="col-lg-12">
+        <div class="form-request form-request-modern bg-gray-lighter novi-background">
+          <h3>Orden de Trabajo</h3><br>
+
+          <form name="formularioContacto" class="rd-mailform form-fix" onsubmit="return(validate());">
+            <div class="row row-20 row-fix">
+
+              <div class="col-sm-12">
+                <h6 style="text-decoration: underline">Datos del Cliente</h6>
+              </div>
+              <div class="col-sm-9">
+                <label class="form-label-outside">Rut</label>
+                <div class="form-wrap form-wrap-inline">
+                  <input class="form-input" id="rut" type="text" name="name" data-constraints="@Required">
+                  <label class="form-label" for="contact-rut">Rut</label>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <label class="form-label-outside">DV</label>
+                <div class="form-wrap form-wrap-inline">
+                  <input class="form-input" id="dv" type="text" name="name" data-constraints="@Required">
+                  <label class="form-label" for="contact-dv">Dv</label>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <label class="form-label-outside">Nombre</label>
+                <div class="form-wrap form-wrap-inline">
+                  <input class="form-input" id="nombre" type="text" name="name" data-constraints="@Required">
+                  <label class="form-label">Nombre</label>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label-outside">Apellido</label>
+                <div class="form-wrap form-wrap-inline">
+                  <input class="form-input" id="apellido" type="text" name="name" data-constraints="@Required">
+                  <label class="form-label" for="contact-apaellido">Apellido</label>
+                </div>
+              </div>
+
+              <div class="col-sm-7">
+                <label class="form-label-outside">Dirección</label>
+                <div class="form-wrap form-wrap-inline">
+                  <input class="form-input" id="direccion" type="text" name="name" data-constraints="@Required">
+                  <label class="form-label" for="contact-direccion">Dirección</label>
+                </div>
+              </div>
+              <div class="col-sm-5">
+                <label class="form-label-outside">Comuna</label>
+                <div class="form-wrap form-wrap-inline">
+                  <select class="form-input select-filter" data-placeholder="All"
+                    data-minimum-results-for-search="Infinity" name="city">
+                    <option value="0" selected>Seleccione Comuna</option>
+                    <option value="1">Las Condes</option>
+                    <option value="2">Providencia</option>
+                    <option value="3">Vitacura</option>
+                    <option value="4">Santiago</option>
+                    <option value="5">Lo Barnechea</option>
+                    <option value="6">La Reina</option>
+                  </select>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12">
+                <h6 style="text-decoration: underline">Datos del Automóvil</h6>
+              </div>
+              <div class="col-sm-12">
+                <label class="form-label-outside">Tipo de Vehículo</label>
+                <div class="form-wrap form-wrap-inline">
+                  <select class="form-input select-filter" data-placeholder="All"
+                    data-minimum-results-for-search="Infinity" name="city">
+                    <option value="0" selected>Seleccione Tipo</option>
+                    <option value="1">Furgon</option>
+                    <option value="2">Automóvil</option>
+                    <option value="3">Camión</option>
+                    <option value="4">Camioneta</option>
+                    <option value="5">Moto</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-sm-5">
+                <label class="form-label-outside">Marca</label>
+                <div class="form-wrap form-wrap-inline">
+                  <select class="form-input select-filter" data-placeholder="All"
+                    data-minimum-results-for-search="Infinity" name="city">
+                    <option value="0" selected>Marca</option>
+                    <option value="1">Chevrolet</option>
+                    <option value="2">Kia</option>
+                    <option value="3">Suzuki</option>
+                    <option value="4">Hyundai</option>
+                    <option value="5">Audi</option>
+                    <option value="6">Honda</option>
+                    <option value="7">Ford</option>
+                    <option value="8">Fiat</option>
+                    <option value="9">Ferrari</option>
+                    <option value="10">Dodge</option>
+                    <option value="11">Citroen</option>
+                    <option value="12">BMW</option>
+                    <option value="13">Alfa Romeo</option>
+                    <option value="14">Jeep</option>
+                    <option value="15">Mazda</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <label class="form-label-outside">Modelo</label>
+                <div class="form-wrap form-wrap-inline">
+                  <select class="form-input select-filter" data-placeholder="All"
+                    data-minimum-results-for-search="Infinity" name="city">
+                    <option value="0" selected>Modelo</option>
+                    <option value="1">Spark</option>
+                    <option value="2">Soul</option>
+                    <option value="3">Vitara</option>
+                    <option value="4">Accent</option>
+                    <option value="5">A5</option>
+                    <option value="6">Civic</option>
+                    <option value="7">Ranger</option>
+                    <option value="8">Palio</option>
+                    <option value="9">Roma</option>
+                    <option value="10">Ram</option>
+                    <option value="11">C4</option>
+                    <option value="12">Serie 3</option>
+                    <option value="13">Giulietta</option>
+                    <option value="14">Wrangler</option>
+                    <option value="15">3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <label class="form-label-outside">Año</label>
+                <div class="form-wrap form-wrap-inline">
+                  <select class="form-input select-filter" data-placeholder="All"
+                    data-minimum-results-for-search="Infinity" name="city">
+                    <option value="0" selected>Año</option>
+                    <option value="1">2021</option>
+                    <option value="2">2020</option>
+                    <option value="3">2019</option>
+                    <option value="4">2018</option>
+                    <option value="5">2017</option>
+                    <option value="6">2016</option>
+                    <option value="7">2015</option>
+                    <option value="8">2014</option>
+                    <option value="9">2013</option>
+                    <option value="10">2012</option>
+                    <option value="11">2011</option>
+                    <option value="12">2010</option>
+                    <option value="13">2009</option>
+                    <option value="14">2008</option>
+                    <option value="15">2007</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <label class="form-label-outside">Revisión Técnica al día?</label>
+                <div class="form-wrap form-wrap-inline">
+                  <input type="radio" name="curso" value="frecuente" checked> Si<br>
+                  <input type="radio" name="curso" value="ocasional"> No
+                </div>
+              </div>
+
+
+
+              <div class="col-sm-12">
+                <h6 style="text-decoration: underline">Tipo de Servicio</h6>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label-outside">Servicios 1</label>
+                <div class="card mb-4 shadow-sm">
+                  <div class="card-header">
+                    <h4 class="my-0 fw-normal">LAVADO EXTERIOR</h4>
+                  </div>
+                  <div class="card-body">
+                    <h2 class="card-title pricing-card-title">$5.000</h2>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Lavado de Vidrios</li>
+                      <li>Lavado de Ruedas</li>
+                      <li>Lavado de Carroceria</li>
+                      <li>Lavado de Chasis</li>
+                    </ul>
+                    <h5><input type="checkbox" value="Lavado Exterior" name="lav_exterior" id="exterior" /> Lavado
+                      Exterior</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label-outside">Servicios 2</label>
+                <div class="card mb-4 shadow-sm">
+                  <div class="card-header">
+                    <h4 class="my-0 fw-normal">LAVADO MOTOR</h4>
+                  </div>
+                  <div class="card-body">
+                    <h2 class="card-title pricing-card-title">$8.000</h2>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Lavado de Culata</li>
+                      <li>Lavado de Cárter </li>
+                      <li>Lavado de Cigüeñal</li>
+                      <li>Lavado de Bloque</li>
+                    </ul>
+                    <h5><input type="checkbox" value="Lavado Motor" name="lav_motor" id="motor" /> Lavado Motor</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <h6 style="text-decoration: underline">Encargado</h6>
+              </div>
+              <div class="col-sm-12">
+                <label class="form-label-outside">Encargado del Servicio</label>
+                <div class="form-wrap form-wrap-inline">
+                  <select class="form-input select-filter" data-placeholder="All"
+                    data-minimum-results-for-search="Infinity" name="encargado">
+                    <option value="0" selected>Seleccione Encargado</option>
+                    <option value="1">Ronald Villarroel</option>
+                    <option value="2">Yessika Arrieta</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <h6 style="text-decoration: underline">Entrega</h6>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label-outside">Fecha de Entrega</label>
+                <div class="form-wrap form-wrap-validation">
+                  <input class="form-input" id="dateForm" name="date" type="text" data-time-picker="date">
+                  <label class="form-label" for="dateForm">Seleciona Fecha</label>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label-outside">Hora de Entrega</label>
+                <div class="form-wrap form-wrap-validation">
+                  <input class="form-input" id="timeForm" name="time" type="text" data-time-picker="time">
+                  <label class="form-label" for="timeForm">Seleciona Hora</label>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                
+
+              <div class="form-wrap form-button">
+                <button class="button button-block button-secondary" type="button"
+                  onClick="validate()">Calcular</button>
+              </div>
+              <script src="js/validaciones.js"></script>
+              <br>
+            </div>
+    
+
+        </form>
+      </div>
+  </div>
+  <section class="section section-md text-center text-md-left bg-gray-700 novi-background bg-cover">
+    <div class="container container-wide">
+      <div class="row row-fix row-50 justify-content-sm-center">
+        <div class="col-xxl-8">
+          <div class="box-cta box-cta-inline">
+            <div class="box-cta-inner">
+              <h3 class="box-cta-title">Visitenos en nuestras sucursales</h3>
+              <p>Using our website, you can book any tour just in a couple of clicks.</p>
+            </div>
+            <div class="box-cta-inner"><a class="button button-secondary button-nina" href="#">Contáctenos!</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Minimal-->
+  <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
+    <div class="container container-wide">
+      <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
+        <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo"
+              src="images/logo-inverse-208x46.png" alt="" width="208" height="46" /></a></div>
+        <div class="col-md-10 col-lg-7 col-xl-4">
+          <p class="right">&#169;&nbsp;<span class="copyright-year"></span> All Rights Reserved. </p>
+        </div>
+        <div class="col-md-10 col-lg-7 col-xl-4 text-xl-right">
+          <ul class="group-xs group-middle">
+            <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-facebook"
+                href="#"></a></li>
+            <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-twitter"
+                href="#"></a></li>
+            <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-instagram"
+                href="#"></a></li>
+            <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-google"
+                href="#"></a></li>
+            <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-linkedin"
+                href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <!-- Global Mailform Output-->
+  <div class="snackbars" id="form-output-global"> </div>
+  <!-- Javascript-->
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- coded by barber-->
+</body>
+
+</html>
